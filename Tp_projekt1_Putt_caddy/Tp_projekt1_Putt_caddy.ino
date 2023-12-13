@@ -4,13 +4,13 @@
   Skapare: Arne Palmberg
   Datum: 2023-12-12
   Beskriving: Detta program beräknar lutning och avstånd till en punkt som sedan uppdaterar detta till en skärm som visar värdena.
-  nn
+  
  
  */
 
 
 #define trigPin 8 // Definiera pin nummer för trig-signalen på ultraljudssensorn
-#define echoPin 9// Definiera pin nummer för echo-signalen på ultraljudssensorn
+#define echoPin 9// Definienra pin nummer för echo-signalen på ultraljudssensorn
 #include "U8glib.h" // Inkludera biblioteket för OLED-skärmen
 #include <Wire.h> // Inkludera Wire-biblioteket för I2C-kommunikation
 
