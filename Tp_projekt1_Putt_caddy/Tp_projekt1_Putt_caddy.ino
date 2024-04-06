@@ -105,6 +105,7 @@ void loop() {
 
 }
 
+
 void updateDistance() {
 
   digitalWrite(trigPin, LOW); // Sätt trigPin till låg nivå
